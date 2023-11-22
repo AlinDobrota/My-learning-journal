@@ -1,0 +1,144 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100svh;
+  background-color: #fafafa;
+  font-family: "Poppins";
+}
+.container {
+  width: 65rem;
+  font-size: 0.9rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  font-size: 0.6rem;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.7rem;
+}
+
+nav ul {
+  padding-right: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  font-weight: bold;
+  list-style: none;
+}
+
+.article__main {
+  display: flex;
+  margin-top: 7rem;
+}
+
+.article__main img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.about__me__hero {
+  padding-left: 1rem;
+  width: 75%;
+}
+
+.about__me__main {
+  padding: 0 4rem;
+}
+
+.about__me__main > * {
+  margin-bottom: 1rem;
+}
+
+.recent-posts {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.row-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 3rem;
+}
+
+.blog h3 {
+  color: black;
+  padding: 5px 0;
+}
+
+.blog img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.blog {
+  width: 21rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  color: #505050;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #202020;
+  color: #ececec;
+  font-size: 0.6rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.footer-text > p {
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .row-flex {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+
+  .article__main {
+    flex-direction: column;
+    margin-bottom: 2rem;
+    align-items: start;
+    margin-left: 3rem;
+  }
+
+  .article__main img {
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+
+  .about__me__hero {
+    width: 86%;
+  }
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+}
