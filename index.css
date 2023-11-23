@@ -117,4 +117,8 @@ button {
   .blog {
     margin: 0 5rem;
   }
+
+  .hero-post {
+    width: 100%;
+  }
 }
