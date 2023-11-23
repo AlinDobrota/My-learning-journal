@@ -121,4 +121,12 @@ button {
   .hero-post {
     width: 100%;
   }
+
+  nav ul {
+    padding: 0;
+  }
+
+  h2 {
+    padding: 0;
+  }
 }
