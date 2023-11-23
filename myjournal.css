@@ -137,4 +137,8 @@ nav ul {
   nav ul {
     padding: 0;
   }
+
+  .blog {
+    width: 90%;
+  }
 }
