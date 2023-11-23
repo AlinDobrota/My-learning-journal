@@ -126,19 +126,28 @@ nav ul {
     flex-direction: column;
     margin-bottom: 2rem;
     align-items: start;
-    margin-left: 3rem;
   }
 
   .article__main img {
     object-fit: cover;
     margin-bottom: 1rem;
+    margin-left: 1rem;
   }
 
   .about__me__hero {
     width: 100%;
+    padding: 0 1rem;
+  }
+
+  .about__me__main {
+    padding: 0 1rem;
   }
 
   h1 {
     margin-bottom: 1rem;
+  }
+
+  nav ul {
+    padding: 0;
   }
 }

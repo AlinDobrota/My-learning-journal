@@ -125,4 +125,16 @@ nav ul {
     grid-template-columns: 1fr;
     place-items: center;
   }
+
+  .main-post {
+    padding: 0.5rem;
+  }
+
+  .contained {
+    padding: 1rem;
+  }
+
+  nav ul {
+    padding: 0;
+  }
 }
